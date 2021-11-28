@@ -1,0 +1,9 @@
+function lovefunc(flower1, flower2){
+  // moment of truth
+  var a = flower1 - flower2;
+  if (a % 2) {
+    return true;
+  }
+  else  {return false;
+  }
+}
